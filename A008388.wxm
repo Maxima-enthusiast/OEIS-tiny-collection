@@ -1,0 +1,11 @@
+/* [wxMaxima batch file version 1] [ DO NOT EDIT BY HAND! ]*/
+/* [ Created with wxMaxima version 22.04.0 ] */
+/* [wxMaxima: input   start ] */
+A008388[n]:=1+7*n*(n+1)*(n^2+n+3)*(11*n^2+11*n+14)/60$
+makelist(A008388[n], n, 0, 30);
+/* [wxMaxima: input   end   ] */
+
+
+
+/* Old versions of Maxima abort on loading files that end in a comment. */
+"Created with wxMaxima 22.04.0"$

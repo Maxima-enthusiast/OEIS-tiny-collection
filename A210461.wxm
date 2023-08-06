@@ -1,0 +1,11 @@
+/* [wxMaxima batch file version 1] [ DO NOT EDIT BY HAND! ]*/
+/* [ Created with wxMaxima version 22.04.0 ] */
+/* [wxMaxima: input   start ] */
+Prime(n) := block(if n = 1 then return(2), return(next_prime(Prime(n-1))))$
+makelist((9^Prime(n)-1)/8, n, 2, 12);
+/* [wxMaxima: input   end   ] */
+
+
+
+/* Old versions of Maxima abort on loading files that end in a comment. */
+"Created with wxMaxima 22.04.0"$

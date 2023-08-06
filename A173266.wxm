@@ -1,0 +1,13 @@
+/* [wxMaxima batch file version 1] [ DO NOT EDIT BY HAND! ]*/
+/* [ Created with wxMaxima version 22.04.0 ] */
+/* [wxMaxima: input   start ] */
+(kk : 50, nn : 15)$
+gf(n) := taylor(if n = 0 then 1/(1 - x) else (x^(n + 1) - 1)/((x - 2)*x^n + 1), x, 0, kk)$
+T(n, k) := ratcoef(gf(n), x, k)$
+create_list(T(k, n - k), n, 0, nn, k, 0, n);
+/* [wxMaxima: input   end   ] */
+
+
+
+/* Old versions of Maxima abort on loading files that end in a comment. */
+"Created with wxMaxima 22.04.0"$

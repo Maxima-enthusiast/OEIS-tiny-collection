@@ -1,0 +1,13 @@
+/* [wxMaxima batch file version 1] [ DO NOT EDIT BY HAND! ]*/
+/* [ Created with wxMaxima version 22.04.0 ] */
+/* [wxMaxima: input   start ] */
+t(n, k) := ratcoef((x - 1)^n + (-1)^n*(x - 1), x, k)$
+T:[0]$
+for n:2 thru 11 do T:append(T, makelist(t(n, k), k, 0, n))$
+T;
+/* [wxMaxima: input   end   ] */
+
+
+
+/* Old versions of Maxima abort on loading files that end in a comment. */
+"Created with wxMaxima 22.04.0"$

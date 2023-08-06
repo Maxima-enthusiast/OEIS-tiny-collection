@@ -1,0 +1,12 @@
+/* [wxMaxima batch file version 1] [ DO NOT EDIT BY HAND! ]*/
+/* [ Created with wxMaxima version 22.04.0 ] */
+/* [wxMaxima: input   start ] */
+f(a):= mod((19^a + 23^a), 31)$
+a:-1$
+for n:1 thru 3000 step 0 do(a:a+1, if f(a)=29 then (if mod(a, 30)=13 then (print(n, " ", a), n:n+1) else (print("Exception at ", a, ", ", f(a)), n:3001)));
+/* [wxMaxima: input   end   ] */
+
+
+
+/* Old versions of Maxima abort on loading files that end in a comment. */
+"Created with wxMaxima 22.04.0"$

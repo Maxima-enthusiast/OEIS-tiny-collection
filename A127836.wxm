@@ -1,0 +1,11 @@
+/* [wxMaxima batch file version 1] [ DO NOT EDIT BY HAND! ]*/
+/* [ Created with wxMaxima version 22.04.0 ] */
+/* [wxMaxima: input   start ] */
+P(n, x) := if n = 0 or n = 1 then 1 else P(n - 1, x) + x^(n  - 1)*P(n - 2, x)$
+create_list(ratcoef(expand(P(n, x)), x, k), n, 0, 10, k, 0, floor(n^2/4));
+/* [wxMaxima: input   end   ] */
+
+
+
+/* Old versions of Maxima abort on loading files that end in a comment. */
+"Created with wxMaxima 22.04.0"$

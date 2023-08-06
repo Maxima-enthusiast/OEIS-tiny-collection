@@ -1,0 +1,12 @@
+/* [wxMaxima batch file version 1] [ DO NOT EDIT BY HAND! ]*/
+/* [ Created with wxMaxima version 22.04.0 ] */
+/* [wxMaxima: input   start ] */
+a[1]:1$
+a[n]:=a[n-1]*10^floor(log(10*n)/log(10))+n$
+makelist(a[n], n, 1, 17);
+/* [wxMaxima: input   end   ] */
+
+
+
+/* Old versions of Maxima abort on loading files that end in a comment. */
+"Created with wxMaxima 22.04.0"$

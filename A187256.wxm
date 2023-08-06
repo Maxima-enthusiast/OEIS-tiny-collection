@@ -1,0 +1,10 @@
+/* [wxMaxima batch file version 1] [ DO NOT EDIT BY HAND! ]*/
+/* [ Created with wxMaxima version 22.04.0 ] */
+/* [wxMaxima: input   start ] */
+a(n):=sum(((-1)^i*binomial(n-i, i)*binomial(2*n-4*i+2, n-2*i))/(n-2*i+1), i, 0, (n)/2);
+/* [wxMaxima: input   end   ] */
+
+
+
+/* Old versions of Maxima abort on loading files that end in a comment. */
+"Created with wxMaxima 22.04.0"$
