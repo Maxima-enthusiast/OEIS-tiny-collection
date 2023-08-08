@@ -9,7 +9,7 @@
         if primep(p+k-1) and primep(p+k+1) then
             return(p+k)
     )
-)$
+)$ /* R. J. Mathar, Mar 15 2012 */
 /* [wxMaxima: input   end   ] */
 
 
