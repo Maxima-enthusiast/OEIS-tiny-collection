@@ -2,7 +2,7 @@
 /* [ Created with wxMaxima version 22.04.0 ] */
 /* [wxMaxima: input   start ] */
 A000292(n):=n*(n+1)*(n+2)/6$
-makelist(A000292(n), n, 0, 60);
+makelist(A000292(n), n, 0, 60); /* Martin Ettl, Oct 24 2012 */
 /* [wxMaxima: input   end   ] */
 
 
