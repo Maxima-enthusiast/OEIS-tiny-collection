@@ -2,7 +2,7 @@
 /* [ Created with wxMaxima version 22.04.0 ] */
 /* [wxMaxima: input   start ] */
 A000079(n):=2^n$
-makelist(A000079(n), n, 0, 30);
+makelist(A000079(n), n, 0, 30); /* Martin Ettl, Nov 05 2012 */
 /* [wxMaxima: input   end   ] */
 
 
