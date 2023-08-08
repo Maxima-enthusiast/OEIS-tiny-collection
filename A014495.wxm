@@ -2,7 +2,7 @@
 /* [ Created with wxMaxima version 22.04.0 ] */
 /* [wxMaxima: input   start ] */
 A014495(n):=binomial(n-1, floor((n-1)/2))-1$
-makelist(A014495(n), n, 1, 30);
+makelist(A014495(n), n, 1, 30); /* Martin Ettl, Nov 01 2012 */
 /* [wxMaxima: input   end   ] */
 
 
