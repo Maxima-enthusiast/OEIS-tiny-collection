@@ -2,7 +2,7 @@
 /* [ Created with wxMaxima version 22.04.0 ] */
 /* [wxMaxima: input   start ] */
 M(n) := coeff(expand((1+x+x^2)^(n+1)), x^n)/(n+1);
-makelist(M(n), n, 0, 60);
+makelist(M(n), n, 0, 60); /* Emanuele Munarini, Apr 04 2012 */
 /* [wxMaxima: input   end   ] */
 
 
