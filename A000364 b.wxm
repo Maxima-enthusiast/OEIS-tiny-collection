@@ -2,7 +2,7 @@
 /* [ Created with wxMaxima version 22.04.0 ] */
 /* [wxMaxima: input   start ] */
 a[n]:=if n=0 then 1 else sum(sum((i-k)^(2*n)*binomial(2*k, i)*(-1)^(i+k+n), i, 0, k-1)/ (2^(k-1)), k, 1, 2*n);
-makelist(a[n], n, 0, 16);
+makelist(a[n], n, 0, 16); \\ Vladimir Kruchinin, Oct 05 2012
 /* [wxMaxima: input   end   ] */
 
 
