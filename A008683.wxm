@@ -2,7 +2,7 @@
 /* [ Created with wxMaxima version 22.04.0 ] */
 /* [wxMaxima: input   start ] */
 A008683(n):=moebius(n)$
-makelist(A008683(n), n, 1, 30);
+makelist(A008683(n), n, 1, 30); /* Martin Ettl, Oct 24 2012 */
 /* [wxMaxima: input   end   ] */
 
 
