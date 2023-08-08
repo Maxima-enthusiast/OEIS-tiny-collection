@@ -1,7 +1,7 @@
 /* [wxMaxima batch file version 1] [ DO NOT EDIT BY HAND! ]*/
 /* [ Created with wxMaxima version 22.04.0 ] */
 /* [wxMaxima: input   start ] */
-a(n):=sum(sum(binomial(n-2*m+1, m-i)*binomial(n-2*m+i, n-2*m), i, 0, m), m, 0, (n)/2);
+a(n):=sum(sum(binomial(n-2*m+1, m-i)*binomial(n-2*m+i, n-2*m), i, 0, m), m, 0, (n)/2); /* Vladimir Kruchinin, Dec 17 2011 */
 /* [wxMaxima: input   end   ] */
 
 
