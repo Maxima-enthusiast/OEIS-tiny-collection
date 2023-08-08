@@ -3,7 +3,7 @@
 /* [wxMaxima: input   start ] */
 s[0]:1$
 s[n]:=n*s[n-1]+(-1)^n$
-makelist(s[n], n, 0, 12);
+makelist(s[n], n, 0, 12); /* Emanuele Munarini, Mar 01 2011 */
 /* [wxMaxima: input   end   ] */
 
 
