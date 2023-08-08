@@ -3,7 +3,7 @@
 /* [wxMaxima: input   start ] */
 B(n, x):=sum(stirling2(n, k)*x^k, k, 0, n);
 a(n):=sum(stirling1(n, k)*2^k*B(k, 1/2), k, 0, n);
-makelist(a(n), n, 0, 40);
+makelist(a(n), n, 0, 40); /* Emanuele Munarini, May 16 2014 */
 /* [wxMaxima: input   end   ] */
 
 

@@ -2,7 +2,7 @@
 /* [ Created with wxMaxima version 22.04.0 ] */
 /* [wxMaxima: input   start ] */
 A000330(n):=binomial(n+2, 3)+binomial(n+1, 3)$
-makelist(A000330(n), n, 0, 20);
+makelist(A000330(n), n, 0, 20); /* Martin Ettl, Nov 12 2012 */
 /* [wxMaxima: input   end   ] */
 
 

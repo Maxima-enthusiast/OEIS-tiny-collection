@@ -1,7 +1,7 @@
 /* [wxMaxima batch file version 1] [ DO NOT EDIT BY HAND! ]*/
 /* [ Created with wxMaxima version 22.04.0 ] */
 /* [wxMaxima: input   start ] */
-makelist(n*(n+3), n, 0, 20);
+makelist(n*(n+3), n, 0, 20); /* Martin Ettl, Jan 22 2013 */
 /* [wxMaxima: input   end   ] */
 
 

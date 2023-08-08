@@ -2,7 +2,7 @@
 /* [ Created with wxMaxima version 22.04.0 ] */
 /* [wxMaxima: input   start ] */
 a(n) := if n = 0 then 2 else a(n-1)^2-a(n-1)+1 $
-makelist(a(n), n, 0, 8);
+makelist(a(n), n, 0, 8); /* # Emanuele Munarini, Mar 23 2017 */
 /* [wxMaxima: input   end   ] */
 
 

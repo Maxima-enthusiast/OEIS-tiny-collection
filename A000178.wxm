@@ -2,7 +2,7 @@
 /* [ Created with wxMaxima version 22.04.0 ] */
 /* [wxMaxima: input   start ] */
 A000178(n):=prod(k!, k, 0, n)$
-makelist(A000178(n), n, 0, 30);
+makelist(A000178(n), n, 0, 30); /* Martin Ettl, Oct 23 2012 */
 /* [wxMaxima: input   end   ] */
 
 

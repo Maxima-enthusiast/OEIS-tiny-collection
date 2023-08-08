@@ -1,7 +1,7 @@
 /* [wxMaxima batch file version 1] [ DO NOT EDIT BY HAND! ]*/
 /* [ Created with wxMaxima version 22.04.0 ] */
 /* [wxMaxima: input   start ] */
-makelist(sum(n!/k!, k, 1, n), n, 0, 40);
+makelist(sum(n!/k!, k, 1, n), n, 0, 40); /* Emanuele Munarini, Jun 20 2014 */
 /* [wxMaxima: input   end   ] */
 
 

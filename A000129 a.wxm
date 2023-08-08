@@ -5,7 +5,7 @@ a[0]:0$
 a[1]:1$
 a[n]:=2*a[n-1]+a[n-2]$
 A000129(n):=a[n]$
-makelist(A000129(n), n, 0, 30);
+makelist(A000129(n), n, 0, 30); /* Martin Ettl, Nov 03 2012 */
 /* [wxMaxima: input   end   ] */
 
 

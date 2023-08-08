@@ -2,7 +2,7 @@
 /* [ Created with wxMaxima version 22.04.0 ] */
 /* [wxMaxima: input   start ] */
 trinomial(n, k):=coeff(expand((1+x+x^2)^n), x, k);
-create_list(trinomial(n, k), n, 0, 8, k, 0, 2*n);
+create_list(trinomial(n, k), n, 0, 8, k, 0, 2*n); /* \\ Emanuele Munarini, Mar 15 2011 */
 /* [wxMaxima: input   end   ] */
 
 

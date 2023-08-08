@@ -3,7 +3,7 @@
 /* [wxMaxima: input   start ] */
 h(n):=if oddp(n)=true then 1 else 0;
 S(n, m):=if n=0 then 1 else if n<m then 0 else if n=m then h(n) else sum(h(k)*S(n-k, k), k, m, n/2)+h(n);
-makelist(S(n, 1), n, 0, 27);
+makelist(S(n, 1), n, 0, 27); /* Vladimir Kruchinin, Sep 07 2014 */
 /* [wxMaxima: input   end   ] */
 
 
