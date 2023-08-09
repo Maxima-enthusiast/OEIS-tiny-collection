@@ -2,7 +2,7 @@
 /* [ Created with wxMaxima version 22.04.0 ] */
 /* [wxMaxima: input   start ] */
 A000215(n):=2^(2^n)+1$
-makelist(A000215(n), n, 0, 10);
+makelist(A000215(n), n, 0, 10); /* Martin Ettl, Dec 10 2012 */
 /* [wxMaxima: input   end   ] */
 
 
