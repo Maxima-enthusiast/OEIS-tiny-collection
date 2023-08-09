@@ -1,7 +1,7 @@
 /* [wxMaxima batch file version 1] [ DO NOT EDIT BY HAND! ]*/
 /* [ Created with wxMaxima version 22.04.0 ] */
 /* [wxMaxima: input   start ] */
-makelist(floor(n*sqrt(2)), n, 0, 100);
+makelist(floor(n*sqrt(2)), n, 0, 100); /* Martin Ettl, Oct 17 2012 */
 /* [wxMaxima: input   end   ] */
 
 
