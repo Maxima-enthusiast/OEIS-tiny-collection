@@ -2,7 +2,7 @@
 /* [ Created with wxMaxima version 22.04.0 ] */
 /* [wxMaxima: input   start ] */
 B(n, a, x):=coeff(taylor(exp(x*t)*(t/(exp(t)-1))^a, t, 0, 20), t, n)*n!;
-makelist((-1)^(n)*B(n, n+1, -n-1)/n!, n, 0, 10);
+makelist((-1)^(n)*B(n, n+1, -n-1)/n!, n, 0, 10); /* Vladimir Kruchinin, Apr 06 2016 */
 /* [wxMaxima: input   end   ] */
 
 

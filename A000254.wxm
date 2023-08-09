@@ -1,7 +1,7 @@
 /* [wxMaxima batch file version 1] [ DO NOT EDIT BY HAND! ]*/
 /* [ Created with wxMaxima version 22.04.0 ] */
 /* [wxMaxima: input   start ] */
-a(n):=(-1)^(n+1)/2*(n+1)*sum(k*bern(k-1)*stirling1(n, k), k, 1, n);
+a(n):=(-1)^(n+1)/2*(n+1)*sum(k*bern(k-1)*stirling1(n, k), k, 1, n); /* Vladimir Kruchinin, Nov 20 2016 */
 /* [wxMaxima: input   end   ] */
 
 

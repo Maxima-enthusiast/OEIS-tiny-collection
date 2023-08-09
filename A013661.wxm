@@ -3,7 +3,7 @@
 /* [wxMaxima: input   start ] */
 fpprec : 100$
 ev(bfloat(zeta(2)))$
-bfloat(%);
+bfloat(%); /* Martin Ettl, Oct 21 2012 */
 /* [wxMaxima: input   end   ] */
 
 

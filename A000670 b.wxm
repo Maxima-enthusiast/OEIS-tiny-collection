@@ -4,7 +4,7 @@
 a[0]:1$
 a[n]:=sum(binomial(n, k)*a[n-k], k, 1, n)$
 A000670(n):=a[n]$
-makelist(A000670(n), n, 0, 30);
+makelist(A000670(n), n, 0, 30); /* Martin Ettl, Nov 05 2012 */
 /* [wxMaxima: input   end   ] */
 
 
