@@ -2,7 +2,7 @@
 /* [ Created with wxMaxima version 22.04.0 ] */
 /* [wxMaxima: input   start ] */
 A003462(n):=(3^n - 1)/2$
-makelist(A003462(n), n, 0, 30);
+makelist(A003462(n), n, 0, 30); /* Martin Ettl, Nov 05 2012 */
 /* [wxMaxima: input   end   ] */
 
 
