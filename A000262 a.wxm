@@ -1,7 +1,7 @@
 /* [wxMaxima batch file version 1] [ DO NOT EDIT BY HAND! ]*/
 /* [ Created with wxMaxima version 22.04.0 ] */
 /* [wxMaxima: input   start ] */
-makelist(sum(abs(stirling1(n, k))*belln(k), k, 0, n), n, 0, 24);
+makelist(sum(abs(stirling1(n, k))*belln(k), k, 0, n), n, 0, 24); /* Emanuele Munarini, Jul 04 2011 */
 /* [wxMaxima: input   end   ] */
 
 
