@@ -3,7 +3,7 @@
 /* [wxMaxima: input   start ] */
 a[1]:1$
 a[n]:=a[n-1]*10^floor(log(10*n)/log(10))+n$
-makelist(a[n], n, 1, 17);
+makelist(a[n], n, 1, 17);  /* Bruno Berselli, May 27 2011 */
 /* [wxMaxima: input   end   ] */
 
 
