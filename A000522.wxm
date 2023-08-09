@@ -2,7 +2,7 @@
 /* [ Created with wxMaxima version 22.04.0 ] */
 /* [wxMaxima: input   start ] */
 a(n) := if n=0 then 1 else n*a(n-1)+1;
-makelist(a(n), n, 0, 12); 
+makelist(a(n), n, 0, 12); /* Emanuele Munarini, Apr 27 2017 */
 /* [wxMaxima: input   end   ] */
 
 
