@@ -1,7 +1,7 @@
 /* [wxMaxima batch file version 1] [ DO NOT EDIT BY HAND! ]*/
 /* [ Created with wxMaxima version 22.04.0 ] */
 /* [wxMaxima: input   start ] */
-makelist(n*(n+2), n, 0, 56);
+makelist(n*(n+2), n, 0, 56); /* Martin Ettl, Oct 15 2012 */
 /* [wxMaxima: input   end   ] */
 
 
