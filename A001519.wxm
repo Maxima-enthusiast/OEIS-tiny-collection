@@ -4,7 +4,7 @@
 a[0]:1$
 a[1]:1$
 a[n]:=3*a[n-1]-a[n-2]$
-makelist(a[n], n, 0, 30);
+makelist(a[n], n, 0, 30); /* Martin Ettl, Nov 15 2012 */
 /* [wxMaxima: input   end   ] */
 
 
