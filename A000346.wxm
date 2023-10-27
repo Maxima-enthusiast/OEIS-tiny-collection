@@ -1,7 +1,7 @@
 /* [wxMaxima batch file version 1] [ DO NOT EDIT BY HAND! ]*/
 /* [ Created with wxMaxima version 22.04.0 ] */
 /* [wxMaxima: input   start ] */
-makelist(2^(2*n+1)-binomial(2*n, n)*(2*n+1)/(n+1), n, 0, 12);
+makelist(2^(2*n+1)-binomial(2*n, n)*(2*n+1)/(n+1), n, 0, 12); /* Emanuele Munarini, Mar 16 2011 */
 /* [wxMaxima: input   end   ] */
 
 

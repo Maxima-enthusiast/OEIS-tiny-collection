@@ -2,7 +2,7 @@
 /* [ Created with wxMaxima version 22.04.0 ] */
 /* [wxMaxima: input   start ] */
 A001580(n):=2^n+n^2$
-makelist(A001580(n), n, 0, 20);
+makelist(A001580(n), n, 0, 20); /* Martin Ettl, Dec 18 2012 */
 /* [wxMaxima: input   end   ] */
 
 

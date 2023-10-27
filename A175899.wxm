@@ -1,7 +1,7 @@
 /* [wxMaxima batch file version 1] [ DO NOT EDIT BY HAND! ]*/
 /* [ Created with wxMaxima version 22.04.0 ] */
 /* [wxMaxima: input   start ] */
-a(n):=sum(if evenp(n+k) then ((-1)^((n+k)/2)*sum(j!*stirling2(n, j)*2^(n-j+1)*(-1)^(j)*binomial(j-1, k-1), j, k, n)) else 0, k, 1, n); /* Vladimir Kruchinin, Aug 19 2010 */
+a(n):=n*sum(sum(binomial(j, n-4*k+2*j)*2^(k-j)*binomial(k, j), j, 0, k)/k, k, 1, n/2); /* Vladimir Kruchinin, Oct 21 2011 */
 /* [wxMaxima: input   end   ] */
 
 

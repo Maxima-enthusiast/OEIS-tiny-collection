@@ -2,7 +2,7 @@
 /* [ Created with wxMaxima version 22.04.0 ] */
 /* [wxMaxima: input   start ] */
 a(m, n):=if n=m then 1 else sum(binomial(n, k)*a(k, n-k), k, m, (n/2))+1;
-makelist(a(1, n), n, 0, 17);
+makelist(a(1, n), n, 0, 17); /* Vladimir Kruchinin, Sep 06 2014 */
 /* [wxMaxima: input   end   ] */
 
 

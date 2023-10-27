@@ -2,7 +2,7 @@
 /* [ Created with wxMaxima version 22.04.0 ] */
 /* [wxMaxima: input   start ] */
 a(n):=n*(n^2 + 1)/2$
-makelist(a(n),n,0,25);
+makelist(a(n), n, 0, nmax); /* Stefano Spezia, Aug 12 2018 */
 /* [wxMaxima: input   end   ] */
 
 

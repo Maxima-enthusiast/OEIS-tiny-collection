@@ -2,7 +2,7 @@
 /* [ Created with wxMaxima version 22.04.0 ] */
 /* [wxMaxima: input   start ] */
 a(n) := denom(binomial(-1/2, n));
-makelist(a(n), n, 0, 24);
+makelist(a(n), n, 0, 24); /* Peter Luschny, Nov 21 2012 */
 /* [wxMaxima: input   end   ] */
 
 

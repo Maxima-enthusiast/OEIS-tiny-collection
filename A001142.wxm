@@ -1,7 +1,7 @@
 /* [wxMaxima batch file version 1] [ DO NOT EDIT BY HAND! ]*/
 /* [ Created with wxMaxima version 22.04.0 ] */
 /* [wxMaxima: input   start ] */
-a(n):= prod(binomial(n, k), k, 0, n); n : 15; for i from 0 thru n do print (a(i));
+a(n):= prod(binomial(n, k), k, 0, n); n : 15; for i from 0 thru n do print (a(i)); /* Valentin Bakoev, May 17 2019 */
 /* [wxMaxima: input   end   ] */
 
 

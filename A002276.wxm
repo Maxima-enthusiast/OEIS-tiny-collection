@@ -2,7 +2,7 @@
 /* [ Created with wxMaxima version 22.04.0 ] */
 /* [wxMaxima: input   start ] */
 A002276(n):=2*(10^n - 1)/9$
-makelist(A002276(n), n, 0, 20);
+makelist(A002276(n), n, 0, 20); /* Martin Ettl, Nov 12 2012 */
 /* [wxMaxima: input   end   ] */
 
 

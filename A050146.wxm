@@ -1,7 +1,7 @@
 /* [wxMaxima batch file version 1] [ DO NOT EDIT BY HAND! ]*/
 /* [ Created with wxMaxima version 22.04.0 ] */
 /* [wxMaxima: input   start ] */
-a(n):=sum(if evenp(n+k) then ((-1)^((n+k)/2)*sum(j!*stirling2(n, j)*2^(n-j+1)*(-1)^(j)*binomial(j-1, k-1), j, k, n)) else 0, k, 1, n); /* Vladimir Kruchinin, Aug 19 2010 */
+taylor(-(x^4+sqrt(x^2-6*x+1)*(x^3-5*x^2+5*x+1)-8*x^3+16*x^2-6*x+1)/(x^3+sqrt(x^2-6*x+1)*(x^2-4*x-1)-7*x^2+7*x-1), x, 0, 10); /* Vladimir Kruchinin, Nov 25 2016
 /* [wxMaxima: input   end   ] */
 
 

@@ -2,7 +2,7 @@
 /* [ Created with wxMaxima version 22.04.0 ] */
 /* [wxMaxima: input   start ] */
 A094969(n):=floor(5^n/2^n)$
-makelist(A094969(n), n, 0, 30);
+makelist(A094969(n), n, 0, 30); /* Martin Ettl, Oct 25 2012 */
 /* [wxMaxima: input   end   ] */
 
 

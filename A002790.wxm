@@ -1,7 +1,8 @@
 /* [wxMaxima batch file version 1] [ DO NOT EDIT BY HAND! ]*/
 /* [ Created with wxMaxima version 22.04.0 ] */
 /* [wxMaxima: input   start ] */
-a(n):=sum(if evenp(n+k) then ((-1)^((n+k)/2)*sum(j!*stirling2(n, j)*2^(n-j+1)*(-1)^(j)*binomial(j-1, k-1), j, k, n)) else 0, k, 1, n); /* Vladimir Kruchinin, Aug 19 2010 */
+v(n):=if n=0 then 1 else 1-sum(v(i)/(n-i+1), i, 0, n-1);
+makelist(denom(n!*v(n)), n, 0, 10); /* Vladimir Kruchinin, Aug 28 2013 */
 /* [wxMaxima: input   end   ] */
 
 

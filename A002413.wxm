@@ -2,7 +2,7 @@
 /* [ Created with wxMaxima version 22.04.0 ] */
 /* [wxMaxima: input   start ] */
 A002413(n):=n*(n+1)*(5*n-2)/6$
-makelist(A002413(n), n, 0, 20);
+makelist(A002413(n), n, 0, 20); /* Martin Ettl, Dec 12 2012 */
 /* [wxMaxima: input   end   ] */
 
 

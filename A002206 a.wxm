@@ -2,7 +2,7 @@
 /* [ Created with wxMaxima version 22.04.0 ] */
 /* [wxMaxima: input   start ] */
 a(n):=sum(stirling1(n+1, k)/((n+1)!*(k+1)), k, 0, n+1);
-makelist(num(a(n)), n, -1, 10);
+makelist(num(a(n)), n, -1, 10); /* Vladimir Kruchinin, Sep 23 2012 */
 /* [wxMaxima: input   end   ] */
 
 
