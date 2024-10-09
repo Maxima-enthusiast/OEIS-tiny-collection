@@ -1,12 +1,20 @@
 /* [wxMaxima batch file version 1] [ DO NOT EDIT BY HAND! ]*/
 /* [ Created with wxMaxima version 22.04.0 ] */
 /* [wxMaxima: comment start ]
-https://oeis.org/A308700
+https://oeis.org/A340135
    [wxMaxima: comment end   ] */
 
 
 /* [wxMaxima: input   start ] */
-makelist(n*2^(n-2)*(2^(n-1)-1), n, 0, 25);
+/* version 1 */
+pairs_independent_nontrivial_subsets(n) :=
+block([a, b, d, s : 0 ],
+  for a:1 thru n-1 do
+    for d:1 thru a do
+        ( b : n*d / a,
+          if integerp(b) and b<n
+              then (s : s + binomial(n, a)*binomial(a, d)*binomial(n-a, b-d) ) ),
+    s );
 /* [wxMaxima: input   end   ] */
 
 

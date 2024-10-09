@@ -1,12 +1,18 @@
 /* [wxMaxima batch file version 1] [ DO NOT EDIT BY HAND! ]*/
 /* [ Created with wxMaxima version 22.04.0 ] */
 /* [wxMaxima: comment start ]
-https://oeis.org/A308700
+https://oeis.org/A340135
    [wxMaxima: comment end   ] */
 
 
 /* [wxMaxima: input   start ] */
-makelist(n*2^(n-2)*(2^(n-1)-1), n, 0, 25);
+/* version 2 */
+a(n) :=
+sum(
+  sum(
+    (b : n*d / a,
+     if integerp(b) and b<n then
+       binomial(n, a)*binomial(a, d)*binomial(n-a, b-d) else 0), d, 1, a), a, 1, n-1) ;
 /* [wxMaxima: input   end   ] */
 
 

@@ -1,12 +1,12 @@
 /* [wxMaxima batch file version 1] [ DO NOT EDIT BY HAND! ]*/
 /* [ Created with wxMaxima version 22.04.0 ] */
 /* [wxMaxima: comment start ]
-https://oeis.org/A308700
+https://oeis.org/A306405
    [wxMaxima: comment end   ] */
 
 
 /* [wxMaxima: input   start ] */
-makelist(n*2^(n-2)*(2^(n-1)-1), n, 0, 25);
+T(n, k):=k*sum((binomial(k, 2*k+2*i-n)*binomial(k+2*i-1, i))/(k+i), i, 0, (n-k)/2);
 /* [wxMaxima: input   end   ] */
 
 

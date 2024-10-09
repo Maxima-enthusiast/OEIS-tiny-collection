@@ -1,12 +1,13 @@
 /* [wxMaxima batch file version 1] [ DO NOT EDIT BY HAND! ]*/
 /* [ Created with wxMaxima version 22.04.0 ] */
 /* [wxMaxima: comment start ]
-https://oeis.org/A308700
+https://oeis.org/A354077
    [wxMaxima: comment end   ] */
 
 
 /* [wxMaxima: input   start ] */
-makelist(n*2^(n-2)*(2^(n-1)-1), n, 0, 25);
+fpprec: 100$
+ev(bfloat((%pi/2)+sqrt(3)-1));
 /* [wxMaxima: input   end   ] */
 
 

@@ -1,12 +1,13 @@
 /* [wxMaxima batch file version 1] [ DO NOT EDIT BY HAND! ]*/
 /* [ Created with wxMaxima version 22.04.0 ] */
 /* [wxMaxima: comment start ]
-https://oeis.org/A308700
+https://oeis.org/A270367
    [wxMaxima: comment end   ] */
 
 
 /* [wxMaxima: input   start ] */
-makelist(n*2^(n-2)*(2^(n-1)-1), n, 0, 25);
+makelist((n)!*coeff(taylor(-(((x+1)*%e^x-1)*log(-x*%e^x+x+1))/(x*%e^x-x), x, 0, 15), x, n), n, 0, 15);
+a(n):=(n+1)!*sum((k)!*stirling2(n-k, k+1)/(n-k)!/(k+1), k, 0, (n-1)/2);
 /* [wxMaxima: input   end   ] */
 
 
