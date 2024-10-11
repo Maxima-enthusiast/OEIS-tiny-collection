@@ -1,12 +1,12 @@
 /* [wxMaxima batch file version 1] [ DO NOT EDIT BY HAND! ]*/
 /* [ Created with wxMaxima version 22.04.0 ] */
 /* [wxMaxima: comment start ]
-https://oeis.org/A247171
+https://oeis.org/A249014
    [wxMaxima: comment end   ] */
 
 
 /* [wxMaxima: input   start ] */
-a(n):=if n=0 then 1 else n*sum((binomial(2*k, n-k)*binomial(n-k-1, k-1))/k, k, 1, n);
+makelist(sum(n!/k!*sum(binomial(k, i)*binomial(n+k-i+1, 2*k+i+1)/3^i, i, 0, k), k, 0, n), n, 0, 12);
 /* [wxMaxima: input   end   ] */
 
 

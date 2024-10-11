@@ -1,12 +1,12 @@
 /* [wxMaxima batch file version 1] [ DO NOT EDIT BY HAND! ]*/
 /* [ Created with wxMaxima version 22.04.0 ] */
 /* [wxMaxima: comment start ]
-https://oeis.org/A247171
+https://oeis.org/A212207
    [wxMaxima: comment end   ] */
 
 
 /* [wxMaxima: input   start ] */
-a(n):=if n=0 then 1 else n*sum((binomial(2*k, n-k)*binomial(n-k-1, k-1))/k, k, 1, n);
+T(n, m):=sum(((k+1)/(n+1))*binomial(n+1, m+1)*binomial(n+1, m-k)*((1+(-1)^k)/2), k, 0, m) /* Yuriy Shablya, May 05 2021 */
 /* [wxMaxima: input   end   ] */
 
 
