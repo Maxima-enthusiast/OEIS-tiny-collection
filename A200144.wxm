@@ -1,5 +1,10 @@
 /* [wxMaxima batch file version 1] [ DO NOT EDIT BY HAND! ]*/
 /* [ Created with wxMaxima version 22.04.0 ] */
+/* [wxMaxima: comment start ]
+https://oeis.org/A200144
+   [wxMaxima: comment end   ] */
+
+
 /* [wxMaxima: input   start ] */
 /* count number of partitions of n into m parts */
 b(n, m):=if n<m then 0 else if m=1 then 1 else b(n-1, m-1)+b(n-m, m);
